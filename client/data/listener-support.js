@@ -12,7 +12,7 @@ export default class ListenerSupport {
    * Register a listener
    * @return {void}
    */
-  register(listener) {
+  registerListener(listener) {
     this._listeners.push(listener);
   }
 
